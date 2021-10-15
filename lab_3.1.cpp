@@ -8,8 +8,8 @@ using std::cin;
 
 int main(int argc, char **argv)
 {
-    double a, x_Curr, x_Prev;
-    double diff, eps = std::pow(10, -4);
+    double a, x_Curr, x_Prev, diff;
+	const double eps = std::pow(10, -4);
     
     cout << "Enter a: "; cin >> a;
     
